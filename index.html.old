@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Code Showcase &mdash; Joseph Method</title>
+    <meta name="author" content="Joseph Method"/>
+    <meta name="date" content="2008-05-05T20:06:47-0400"/>
+    <meta name="copyright" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8"/>
+    <meta http-equiv="content-style-type" content="text/css"/>
+
+    <!-- Scriptaculous includes -->
+
+    <script src="/javascripts/prototype.js" type="text/javascript"></script>
+    <script src="/javascripts/scriptaculous.js?load=effects,builder" type="text/javascript"></script>
+
+    <!-- Lightbox 2 includes -->
+    <script type="text/javascript" src="/javascripts/lightbox.js"></script>
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="/javascripts/showcase.js"></script>
+    <link rel="stylesheet" href="css/showcase.css" type="text/css" media="screen" />
+  </head>
+  <body>
+
+    <div id="frame">
+
+      <div id="compliance-badge"><a href="http://validator.w3.org/check?uri=referer"><img
+          src="http://www.w3.org/Icons/valid-xhtml10-blue"
+          alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a></div>
+
+      <h3>Code Showcase &mdash; Joseph Method (<small>updated 5/6/08</small>)</h3>
+      <p>I am a programmer who specializes in <a href="http://ruby-lang.org">Ruby</a>, <a href="http://rubyonrails.org">Ruby on Rails</a> and web development in general. This page is meant to showcase some of my recent programming work and skills.</p>
+
+      <!-- Ruby -->
+      <div class="programming-type">
+        <div class="programming-type-header">Ruby Code</div>
+        <div id="ruby-section" class="programming-type-body hideable">
+          <ul>
+            <li><a href="http://alexandria.rubyforge.org">Alexandria Book Library Manager</a> &mdash; I am a principal administrator of this opensource project (a GUI application for the Linux desktop). I maintain a Ruby on Rails-based wiki on my server <a href="http://wiki.alexandria-projects.org">here</a>. <small>svn records <a href="http://rubyforge.org/scm/?group_id=205">here</a>.</small> <a href="screenshot-alexandria.png" rel="lightbox[showcase]" title="Alexandria Screenshot 1"><small>screenshot</small></a>, <a href="screenshot-alexandria-2.png" rel="lightbox[showcase]" title="Alexandria Screenshot 2"><small>screenshot</small></a></li>
+            <li><a href="http://gitorious.org/projects/agile-lamp">Agile Lamp Utility</a> &mdash; an opensource project providing a software client for a commercially available USB lava lamp. <small>Link is to a git repository</small>. <a href="screenshot-agilelamp.png" rel="lightbox[showcase]" title="Agile Lamp Screenshot"><small>screenshot</small></a></li>
+            <li>Findrate &mdash; a complex Ruby on Rails project enabling mortage brokers to aggregate mortgage rates from banks. Proprietary code. <a href="image-0.png" rel="lightbox[showcase]" title="Findrate Banks Page"><small>screenshot</small></a>, <a href="image-1.png" rel="lightbox[showcase]" title="Findrate Banks Page"><small>screenshot</small></a></li>
+            <li><a href="http://www.lplato.com">LPlato Website</a> &mdash; Simple website in English and Chinese using altered template and a Ruby on Rails <a href="http://radiantcms.org">CMS</a>. Dynamic header and sidebar change based on page URL.</li>
+          </ul>
+        </div>
+      </div> 
+
+      <!-- Python -->
+      <div class="programming-type">
+        <div class="programming-type-header">Python Code</div>
+        <div class="programming-type-body hideable">
+          <ul>
+            <li><a href="https://code.launchpad.net/~tristil/vigedit/main-method">ViGedit Plugin for Gedit</a> &mdash; Plugin to make the text editor <a href="http://www.gnome.org/projects/gedit/">Gedit</a> behave like <a href="http://vim.org">Vim</a>. About 50% of code is original to me. <small>Link is to a bzr repository.</small></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Javascript-->
+      <div class="programming-type">
+        <div class="programming-type-header">Javascript Examples</div>
+        <div class="programming-type-body">
+          <p>Simple demonstrations of javascript competency. <small>Uses <a href="http://script.aculo.us">script.aculo.us</a> and <a href="http://prototypejs.org">protype</a> libraries</small></p>
+          <p><a id="block-open-link" href="javascript:void(0)" onclick="toggleBlocks('hidden-block')">Click this</a></p>
+        </div>
+        <div id="hidden-block" style="display:none;">
+          <div id="time"></div>
+          <ul> 
+            <li><a id="hide-section-bodies-link" href="javascript:void(0)" onclick="toggleBlocks('hideable')">Click to hide all section bodies</a> (<small>except this one</small>)</li>
+            <li><a href="javascript:void(0)" onclick="updateWithTime('time')">Get current time from server</a> (Ajax example using PHP backend) <small>server time is UTC</small></li>
+          </ul>
+        </div> 
+      </div>
+
+      <!-- PHP -->
+      <div class="programming-type">
+        <div class="programming-type-header">PHP Example</div>
+        <div class="programming-type-body hideable">
+          <ul>
+            <li><a href="">Click for interactive PHP page</a> <span style="color:red;">(Not finished)</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- HTML -->
+      <div class="programming-type">
+        <div class="programming-type-header">HTML</div>
+        <div class="programming-type-body hideable">
+          <p>This page was hand-coded on the server using Vim. Attention was paid to standards-compliance and HTML readability. My expertise is in conforming graphic designs to CMS and other dynamic backends, including <a href="http://wordpress.org">Wordpress</a>, <a href="http://plone.org">Plone</a> and Ruby on Rails applications.</p>
+        </div>
+      </div> 
+
+    </div> <!-- frame div -->
+  </body>
+</html>
